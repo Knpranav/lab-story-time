@@ -44,6 +44,10 @@ describe("Concatenate the types of data and return it - moreAboutHome", function
   });
 });
 
+
+
+
+
 //Trial 2:
 //Check if the data given is of the right type
 //parents = String, noOfSiblings = Number, isNuclearFamily = Boolean
@@ -89,6 +93,10 @@ describe("Check if the arguments passed corresponds to the given data types  - m
   });
 });
 
+
+
+
+
 //Trial 3:
 //Lily is suspicious about Karen's new friend
 //Karen tells her friend's age and even writes it down
@@ -130,6 +138,10 @@ describe("Check which of the argument passed is of type NaN  - doesFriendExist",
     expect(actualResult).toEqual(expectedResult);
   });
 });
+
+//PROGRESSION 3
+
+
 
 // /Trial 4:
 //Lily gave Karen x sweets
@@ -175,6 +187,12 @@ describe("Calculate the number of sweets Karen's friend eats  - sweetTooth", fun
   });
 });
 
+
+
+
+
+
+
 //Trial 5:
 //As Lily moves closer, it gets colder. She checks the temperature on her mobile
 //It only shows in farenheit. Convert the data to celsius and return it.
@@ -215,7 +233,7 @@ describe("Convert the temperature from farenheit to celsius - convertToCelsius",
     expect(actualResult).toEqual(expectedResult);
   });
 
-  it("Return 'Technical Error!' when input is of type object", function() {
+  it("Return 'Tech(nical Error!' when input is of type object", function() {
     let actualResult = convertToCelsius([]);
 
     let expectedResult = "Technical Error!";
@@ -223,6 +241,12 @@ describe("Convert the temperature from farenheit to celsius - convertToCelsius",
     expect(actualResult).toEqual(expectedResult);
   });
 });
+
+
+
+
+
+
 
 //Trial 6:
 //Lily can now do multiple things to deal with this
@@ -268,3 +292,4 @@ describe("Decide what actions Karen will take next - aDifficultChoice", function
     expect(actualResult).toEqual(expectedResult);
   });
 });
+
